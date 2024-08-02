@@ -1,0 +1,26 @@
+{
+  "name": "aws-bedrock-integation-node",
+  "version": "1.0.0",
+  "description": "A Repo to learn about the Amazon bedrock with node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npx tsc",
+    "start":"node dist/index.js",
+    "dev":"nodemon src/index.ts"
+  },
+  "author": "anix001",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.621.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.2",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
